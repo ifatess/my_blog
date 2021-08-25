@@ -12,7 +12,7 @@ In the following chapters, the author aims at recording and reflecting on the pr
 
 # Pre-start
 
-##Environment build-up
+## Environment build-up
 According to the *preface* of the book, projects and practices involved are based on **C** and **Unix**. Unfortunately, I'm currently using the *Windows* OS and I'm not about to set up a virtual machine through *VMWare* or other similar softwares.
 
 At the beginning, I set up GCC and VS Code on my PC and it **does** work. However, it's pretty complicated to do so.
