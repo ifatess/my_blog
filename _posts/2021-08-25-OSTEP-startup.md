@@ -18,7 +18,7 @@ At the beginning, I set up GCC and VS Code on my PC and it **does** work. Howeve
 
 Due to my laziness, I turned to a quicker and no less more reliable way to fit in the course's requirement.
 I use the t2-micro device from **AWS** service. It is completely free of charge and easy to use.
-After creating your entity, click on the "Connect" button and choose "EC2-INSTANCE-CONNECT", even without config your private key.
+After creating your entity, click on the "Connect" button and choose "EC2-INSTANCE-CONNECT", even without configuring your private key.
 
 ### Tips:
 1. It is acceptable to write programs directly through the terminal, but it will be better if you can write them in an editor (e.g., VSCode) and then send them to the cloud. Download PuTTY and follow the guidance here: [Connect to your Linux instance from Windows using PuTTY](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html). 
