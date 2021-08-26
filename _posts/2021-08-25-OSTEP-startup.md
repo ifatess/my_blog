@@ -33,10 +33,11 @@ This blog is set up with *Github Pages* and a Jekyll theme [Minimal Mistakes](ht
 # Introduction
 ## Virtualizing the CPU
 The author of OSTEP shows us a timer program to point out the ability of OS to operate CPU.
-> Tip: Use *&* to run multiple processes at the same time.
+> Hint: Use **&** to run multiple processes at the same time.
 
 This chapter introduces the OS as several roles:
 - CPU Virtualizer
 - API Provider
 - Resource Manager
+
 ## Virtualizing Memory
