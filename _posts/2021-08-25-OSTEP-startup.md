@@ -29,3 +29,14 @@ After creating your instance, click on the "Connect" button and choose "EC2-INST
 From my perspective, it's necessary for programmers/cs students to have their own blogs. As I mentioned in the *Brief-intro* section, blog can bring us a sense of control and persistence, which will foster our learning efficiency. I decided not to blog in a big community like *csdn*, because it's incompatible with my nature of introspection and freedom.
 
 This blog is set up with *Github Pages* and a Jekyll theme [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/). Just follow the instructions and revise the configurations slightly. I'm used to this mode: it's easy-to-start for almost anyone on the earth.
+
+# Introduction
+## Virtualizing the CPU
+The author of OSTEP shows us a timer program to point out the ability of OS to operate CPU.
+> Tip: Use *&* to run multiple processes at the same time.
+
+This chapter introduces the OS as several roles:
+- CPU Virtualizer
+- API Provider
+- Resource Manager
+## Virtualizing Memory
