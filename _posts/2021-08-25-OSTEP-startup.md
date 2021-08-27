@@ -52,3 +52,8 @@ The memory cannot store your data persistently. Therefore, we need I/O devices s
 
 > So now you have some idea of what an OS actually does: it takes physical resources, such as a CPU, memory, or disk, and virtualizes them. It handles tough and tricky issues related to concurrency. And it stores files persistently, thus making them safe over the long-term.
 
+## Design Goals
+- Raise abstractions
+- Provide high performance with minimized overheads
+- Give protection (isolation) and reliability
+- Others: energy-efficiency, security, mobility...
