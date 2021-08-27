@@ -17,3 +17,5 @@ This post contains extracts from *Yiyun Li*'s book: Where Reasons End.
 > Where I last saw you, he said.  
   That line should be mine, I thought.  
   Mine, too, he said. --Page 32
+
+> I've started to understand the point of them, I said. They take up space, they distract, they make the difficult less difficult, they even fluff things up a little. And they can be a shortcut, too, the ladders, youknow. --Page 46
