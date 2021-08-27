@@ -19,3 +19,6 @@ This post contains extracts from *Yiyun Li*'s book: Where Reasons End.
   Mine, too, he said. --Page 32
 
 > I've started to understand the point of them, I said. They take up space, they distract, they make the difficult less difficult, they even fluff things up a little. And they can be a shortcut, too, the ladders, youknow. --Page 46
+
+> Cold, wet, soles of our shoes slippery, our fingers numb, what could we catch? Any seasoned parent was an expert at catching: toppling babies, somersaulting spoons, half-eaten bananas and apples, half-ripe blood berries. Everything breakable and unbreakable belonged to a parent's field, but what could I catch on this gray, wet morning? Not the smile on your face, not a blue cat, not a purple penguin, not dust in the wind, not a thought whispering in your ears, so loud that it had drowned out all the music of the world. What, my child, can I catch now, when all has become invisible?  
+  Words, mother dear, Nikolai said. We will be catching each other's words, don't you see?  --Page 48
