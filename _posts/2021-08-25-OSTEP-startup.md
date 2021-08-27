@@ -45,3 +45,10 @@ This chapter introduces the OS as several roles:
 Understand the usage of *malloc()*, *getpid()*, *assert()*. Through running the given program, we realized that the memory assigned to each process is *virtual memory*, i.e., the address returned from *malloc()* isn't the **real** address of data.
 
 ## Concurrency
+Unserstand the usage of *volatile* (yet not thoroughly...). The author gives an example of how multiple threads being interrupted while processing.
+
+## Persistence
+The memory cannot store your data persistently. Therefore, we need I/O devices such as hard drives or SSDs to save the information we need. OS provides a file system to manage the writing/reading process among I/O devices and CPU. We also need to pay attention to the mechanism that OS acquires to recover from unexpectable problems.
+
+> So now you have some idea of what an OS actually does: it takes physical resources, such as a CPU, memory, or disk, and virtualizes them. It handles tough and tricky issues related to concurrency. And it stores files persistently, thus making them safe over the long-term.
+
