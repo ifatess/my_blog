@@ -24,6 +24,7 @@ After creating your instance, click on the "Connect" button and choose "EC2-INST
 1. It is acceptable to write programs directly through the terminal, but it will be better if you can write them in an editor (e.g., VSCode) and then send them to the cloud. Download PuTTY and follow the guidance here: [Connect to your Linux instance from Windows using PuTTY](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html). Here is the only one-line code needed:`pscp -i C:\path\my-key-pair.ppk C:\path\Sample_file.txt my-instance-user-name@my-instance-public-dns-name:/home/my-instance-user-name/Sample_file.txt`
 2. AWS provides a convenient way to install gcc and many other development tools in linux instance, refer to [Prepare to compile software on an Amazon Linux instance](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/compile-software.html). Use the command: `sudo yum groupinstall "Development Tools"`
 3. If you want to open a 2nd terminal, just click the "Connect" button twice.
+4. **Cloning the [code repository](https://github.com/remzi-arpacidusseau/ostep-code) directly and "make" it will save your time!**
 
 ## Blog set-up
 From my perspective, it's necessary for programmers/cs students to have their own blogs. As I mentioned in the *Brief-intro* section, blog can bring us a sense of control and persistence, which will foster our learning efficiency. I decided not to blog in a big community like *csdn*, because it's incompatible with my nature of introspection and freedom.
@@ -41,3 +42,6 @@ This chapter introduces the OS as several roles:
 - Resource Manager
 
 ## Virtualizing Memory
+Understand the usage of *malloc()*, *getpid()*, *assert()*. Through running the given program, we realized that the memory assigned to each process is *virtual memory*, i.e., the address returned from *malloc()* isn't the **real** address of data.
+
+## Concurrency
