@@ -26,5 +26,6 @@ The separation of fork() and exec() is essential in building a UNIX shell.
 
 4. *pipe()*: look for free file descriptors and assign one to the program. Hence the output is sent to the **pipe** rather than printed on the screen for the next input. Try `grep -o include p4.c | wc -l` to count "include" in p4.c.  
   > Implement:   
-    `close(STDOUT_FILENO);  
+    `close(STDOUT_FILENO);
+    
     open("./p4.output", O_CREAT|O_WRONLY|O_TRUNC, S_IRWXU);`
