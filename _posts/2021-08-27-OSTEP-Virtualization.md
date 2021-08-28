@@ -4,5 +4,11 @@ categories:
 tags:
   - code
 ---
+# Process
 
-This is a test messege.
+The process's machine state contains: memory, registers, I/O information.
+
+## Process Creation
+1. load its code and static data into *memory* (from disk or SSDs)  
+  > Hint: eager <-> lazy (loading the data only when they are in need)
+2. 
