@@ -16,4 +16,8 @@ The process's machine state contains: memory, registers, I/O information.
 
 ## API
 1. *fork()*: call a child process which is exactly the copy of current process, but it comes to life only when *fork()* has been called.  
-   Difference: *fork()* in the child process returns 0 rather than the PID of its child process.
+   > Difference: *fork()* in the child process returns 0 rather than the PID of its child process.  
+   However, directly call *fork()* will cause non-determinism, because we cannot predict what the CPU scheduler's decision.
+2. *wait()*: execute in the parent process to wait until the child process has run and exited. It provide determinism to the program.
+3. *exec()*: call if you want to run a program that is different from the calling program. It does not call a new process, instead, it loads code and data from executable and overwrites its current code segment.  
+  As if *exec()* runs, it seems like the former child process never runs.
