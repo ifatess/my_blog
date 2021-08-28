@@ -15,4 +15,4 @@ The process's machine state contains: memory, registers, I/O information.
 3. Jump to the *main()* routine
 
 ## Terms
-![Key Process Terms](pics/2021-08-27-OSTEP-Virtualization/01.png)
+![Key Process Terms](https://github.com/ifatess/my_blog/blob/7672a5b8e9d17e5871e09287d120628a5a95ae0f/pics/2021-08-27-OSTEP-Virtualization/01.png)
