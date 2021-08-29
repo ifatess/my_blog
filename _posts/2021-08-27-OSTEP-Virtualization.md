@@ -28,3 +28,7 @@ The process's machine state contains: memory, registers, I/O information.
     `open("./p4.output", O_CREAT|O_WRONLY|O_TRUNC, S_IRWXU);`
  ## Homework 05 Takeaways
  
+1. The child process shallow copies data structures from its parent, but shares the same file descriptions. However, one cannot write in a file in the child process and try to read it in the parent process. Not until the whole program ends will the data be written into the file.  
+  > In task 3, simply add `sleep(1)` in the child process.
+2. The key difference between the parent and child is **the value** *fork()* returns. In child processes, it returns 0.
+3. How to create two child processes? Refer to [this article](https://www.cnblogs.com/yfceshi/p/7066407.html). Pay attention to the `return 0`.
