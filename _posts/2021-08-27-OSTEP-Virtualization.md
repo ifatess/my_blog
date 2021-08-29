@@ -26,3 +26,5 @@ The process's machine state contains: memory, registers, I/O information.
   > Implement:   
     `close(STDOUT_FILENO);`  
     `open("./p4.output", O_CREAT|O_WRONLY|O_TRUNC, S_IRWXU);`
+ ## Homework 05 Takeaways
+ 
