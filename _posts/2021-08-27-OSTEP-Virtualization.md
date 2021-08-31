@@ -32,3 +32,5 @@ The process's machine state contains: memory, registers, I/O information.
   > In task 3, simply add `sleep(1)` in the child process.
 2. The key difference between the parent and child is **the value** *fork()* returns. In child processes, it returns 0.
 3. How to create two child processes? Refer to [this article](https://www.cnblogs.com/yfceshi/p/7066407.html). Pay attention to the `return 0`.
+
+# Efficiently Virtulize the CPU with Control
