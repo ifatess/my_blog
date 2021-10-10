@@ -40,3 +40,4 @@ Reason to virtualize the CPU:
 Otherwise the OS would become a simple library👎.
 ## System v.s. User
 System mode: user mode & kernel mode (trap)
+Pay attention to user input: OS runs a trap handler, and user calls should call for a system call and then transfer it into a number. Thus, the system doesn't run the specific code the user provides.
