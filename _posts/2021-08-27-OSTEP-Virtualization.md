@@ -38,3 +38,5 @@ Reason to virtualize the CPU:
 1. Control the behavior of programs;
 2. Switch among programs to make the PC more efficient.
 Otherwise the OS would become a simple library👎.
+## System v.s. User
+System mode: user mode & kernel mode (trap)
