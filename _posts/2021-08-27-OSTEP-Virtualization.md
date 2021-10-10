@@ -33,4 +33,8 @@ The process's machine state contains: memory, registers, I/O information.
 2. The key difference between the parent and child is **the value** *fork()* returns. In child processes, it returns 0.
 3. How to create two child processes? Refer to [this article](https://www.cnblogs.com/yfceshi/p/7066407.html). Pay attention to the `return 0`.
 
-# Efficiently Virtulize the CPU with Control
+# Efficiently Virtualize the CPU with Control
+Reason to virtualize the CPU:
+1. Control the behavior of programs;
+2. Switch among programs to make the PC more efficient.
+Otherwise the OS would become a simple library👎.
